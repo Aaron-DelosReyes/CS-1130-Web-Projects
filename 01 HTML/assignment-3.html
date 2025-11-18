@@ -1,1 +1,124 @@
-]
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaron's Workshop</title>
+
+    <link rel="stylesheet" href="../02 CSS/subPages.css">
+    <link rel="stylesheet" href="../02 CSS/assignment-1-4.css">
+    <link rel="icon" href="../resources/tab-logo.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="navbar"> 
+        <div class="logoBox">
+            <a href="../index.html">
+                <img src="../resources/aaron-logo.png" alt="" class="logo">
+            </a>
+        </div>
+
+        <div class="navLinks">
+            <a href="../index.html" class="link">Home</a>
+            <a href="./about.html" class="link">About</a>
+
+        </div>
+
+        <div class="repoButton">
+            <a href="https://github.com/Aaron-DelosReyes" target="_blank" class="repoAnchor"> 
+                <p class="git">Github Repo</p>
+                <img src="../resources/github.png" alt="" class="githubLogo">
+            </a>
+
+        </div>
+    </div>  
+
+    <!-- Content Wrapper -->
+
+    <div class="content"> 
+        <div class="sidebar"> 
+            <div class="title">
+                <p> CS 1130 | Web Projects</p>
+            </div>
+
+            <div class="projList">
+                <a href="./assignment-1.html" class="project">
+                    <p>Assignment: 01</p>
+                    <p class="desc">Temperature & Distance Converter</p>
+                </a>
+
+                <a href="./assignment-2.html" class="project ">
+                    <p>Assignment: 02</p>
+                    <p class="desc">Income Tax Program</p>
+                </a>
+
+                <a href="./assignment-3.html" class="project current">
+                    <p>Assignment: 03</p>
+                    <p class="desc">Factorial, Sum & Average</p>
+                </a>
+
+                <a href="./assignment-4.html" class="project">
+                    <p>Assignment: 04</p>
+                    <p class="desc">Basic Payroll System</p>
+                </a>
+
+            </div>
+
+            <div class="contact"> 
+                <a href="https://www.linkedin.com/in/aaron-delosreyes/" class="conLink" target="_blank">
+                    <img src="../resources/linkedin.png" alt="" class="contactIcon">
+                </a>
+
+                <a href="https://github.com/Aaron-DelosReyes" class="conLink" target="_blank">
+                    <img src="../resources/github (1).png" alt="" class="contactIcon">
+                </a>                        
+
+                <a href="https://www.facebook.com/profile.php?id=100090790033548" class="conLink" target="_blank">
+                    <img src="../resources/facebook.png" alt="" class="contactIcon">
+                </a>
+
+                <a href="https://www.instagram.com/ron_dreyes/" class="conLink" target="_blank">
+                    <img src="../resources/instagram.png" alt="" class="contactIcon">
+                </a>
+            
+            </div>
+        </div>
+
+        <div class="contentContainer">
+            <div class="projectBox"> 
+                <p class="projHead"> 03: Factorial, Sum & Average</p>
+
+                    <div class="taskBox">
+                        <h3>1. Factorial (While Loop)</h3>
+                        <input type="number" id="factInput" class="taskInput" placeholder="Enter a number">
+                        <button class="taskButton" onclick="computeFactorial()">Compute Factorial</button>
+                        <p class="taskResult" id="factResult">Result: --</p>
+                    </div>
+
+                    <div class="taskBox">
+                        <h3>2. Sum of First N Numbers (Do-While Loop)</h3>
+                        <input type="number" id="sumInput" class="taskInput" placeholder="Enter a number">
+                        <button class="taskButton" onclick="computeSum()">Compute Sum</button>
+                        <p class="taskResult" id="sumResult">Result: --</p>
+                    </div>
+
+                    <div class="taskBox">
+                        <h3>3. Average of First N Numbers (For Loop)</h3>
+                        <input type="number" id="avgInput" class="taskInput" placeholder="Enter a number">
+                        <button class="taskButton" onclick="computeAverage()">Compute Average</button>
+                        <p class="taskResult" id="avgResult">Result: --</p>
+                    </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <script src="../03 JS/assignment-3.js"></script>
+</body>
+</html>

@@ -204,7 +204,8 @@ body{
     padding: 15px 40px;
     background-color: #1A1A1E;
     border: 2px #2a4646 solid;
-    border-radius: 15px;}
+    border-radius: 15px;
+}
 
     .projWrap{
         display: flex;
@@ -237,4 +238,17 @@ body{
     .desc{
         color: #d3d3d3;
         font-size: 12px;
+    }
+
+
+        .navTitle{
+        border-radius: 10px;
+        width: fit-content;
+        padding: 5px;
+        margin-left: -7px;
+        background-color: #2a4646;
+        }
+
+    .me{
+        line-height: 1.8;
     }
